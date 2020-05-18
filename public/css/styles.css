@@ -202,3 +202,18 @@ h2 .color {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+@media (max-width: 45rem) {
+    .chat__sidebar {
+        color: red;
+        width: 25vw;
+    }
+
+    #send-location {
+        display: none;
+    }
+
+    .compose {
+        padding: 5px;
+    }
+}
