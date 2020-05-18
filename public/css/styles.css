@@ -199,6 +199,6 @@ h2 .color {
 
 @media (max-width: 50rem) {
     .centered-form input {
-        font-size: 100%;
+        font-size: 16px;
     }
 }
