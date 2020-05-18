@@ -10,16 +10,12 @@ html {
     font-size: 16px;
 }
 
-/* input {
-    border-radius: 5px;
-    font-size: 14px;
-} */
-
 body {
     line-height: 1.4;
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 100%;
 }
 
 h1 {
@@ -35,7 +31,8 @@ label {
 
 input {
     border-radius: 5px;
-    font-size: 14px;
+    /* font-size: 14px; */
+    font-size: 100%;
     border: 1px solid #eeeeee;
     padding: 12px;
     outline: none;
@@ -90,6 +87,9 @@ button:disabled {
 }
 
 .centered-form input {
+    /*  */
+    font-size: 100%;
+    /*  */
     margin-bottom: 16px;
     width: 100%;
 }
@@ -196,8 +196,4 @@ h2 .color {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0 24px;
-}
-
-@media (max-width: 50rem) {
-    .centered-form input { font-size: 100%; }
 }
