@@ -205,10 +205,6 @@ h2 .color {
 }
 
 @media (max-width: 45rem) {
-    .chat {
-        height: 80vh;
-    }
-
     .chat__sidebar {
         color: red;
         width: 25vw;
