@@ -194,11 +194,8 @@ h2 .color {
 }
 
 @media (max-width: 50rem) {
-    .centered-form {
-        width: 100vw;
-        height: 100vh;   
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .centered-form__box {
+        width: 50vw;
+        height: 35vh;
     }
 }
