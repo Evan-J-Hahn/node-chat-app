@@ -14,7 +14,6 @@ body {
     line-height: 1.4;
     color: #333333;
     font-family: Helvetica, Arial, sans-serif;
-    /* font-size: 16px; */
     font-size: 100%;
 }
 
@@ -31,7 +30,6 @@ label {
 
 input {
     border-radius: 5px;
-    /* font-size: 14px; */
     font-size: 100%;
     border: 1px solid #eeeeee;
     padding: 12px;
@@ -87,9 +85,6 @@ button:disabled {
 }
 
 .centered-form input {
-    /*  */
-    font-size: 100%;
-    /*  */
     margin-bottom: 16px;
     width: 100%;
 }
@@ -196,4 +191,14 @@ h2 .color {
     list-style-type: none;
     font-weight: 300;
     padding: 12px 24px 0 24px;
+}
+
+@media (max-width: 50rem) {
+    .centered-form {
+        width: 100vw;
+        height: 100vh;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
