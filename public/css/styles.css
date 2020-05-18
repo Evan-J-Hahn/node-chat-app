@@ -199,10 +199,10 @@ h2 .color {
 
 @media (max-width: 50rem) {
     input {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .centered-form input {
-        font-size: 16px;
+        font-size: 18px;
     }
 }
