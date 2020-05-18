@@ -213,8 +213,11 @@ h2 .color {
         display: none;
     }
 
+    .compose {
+        padding: 5px;
+    }
+
     .compose input {
-        padding-right: none;
-        padding-left: none;
+        margin: 0 2px 0 0
     }
 }
