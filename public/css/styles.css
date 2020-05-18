@@ -197,12 +197,10 @@ h2 .color {
     padding: 12px 24px 0 24px;
 }
 
-@media (max-width: 50rem) {
-    input {
-        font-size: 18px;
-    }
-
-    .centered-form input {
-        font-size: 18px;
-    }
+@media screen and (device-aspect-ratio: 9/16) {
+    select, textarea, input[type="text"], input[type="password"],
+    input[type="datetime"], input[type="datetime-local"],
+    input[type="date"], input[type="month"], input[type="time"],
+    input[type="week"], input[type="number"], input[type="email"],
+    input[type="url"]{ font-size: 16px; }
 }
