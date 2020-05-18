@@ -205,7 +205,7 @@ h2 .color {
 }
 
 @media (max-width: 45rem) {
-    body {
+    .chat {
         height: 100vh;
     }
 
