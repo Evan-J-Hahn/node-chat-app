@@ -91,6 +91,7 @@ footer {
 }
 
 .centered-form button {
+    height: 100%;
     width: 100%;
 }
 
@@ -204,6 +205,10 @@ h2 .color {
 }
 
 @media (max-width: 45rem) {
+    body {
+        height: 100vh;
+    }
+
     .chat__sidebar {
         color: red;
         width: 25vw;
