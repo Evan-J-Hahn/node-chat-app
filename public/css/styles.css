@@ -193,7 +193,7 @@ h2 .color {
     padding: 12px 24px 0 24px;
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 10rem) {
     .centered-form__box {
         width: 50vw;
         height: 35vh;
