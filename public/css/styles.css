@@ -206,7 +206,6 @@ h2 .color {
 
 @media (max-width: 45rem) {
     .chat__sidebar {
-        color: red;
         width: 25vw;
     }
 
@@ -215,6 +214,7 @@ h2 .color {
     }
 
     .compose {
-        padding: 5px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
