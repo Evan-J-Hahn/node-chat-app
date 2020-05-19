@@ -56,16 +56,6 @@ button:disabled {
     background: #7c5cbf94;
 }
 
-footer {
-    color: grey;
-    bottom: 0;
-    border-top: 1px solid grey;
-    margin-top: 16px;
-    padding: 16px 0;
-    position: absolute;
-    width: 207px;
-}
-
 /* Join Page Styles */
 
 .centered-form {
@@ -214,15 +204,13 @@ h2 .color {
     }
 
     .compose {
+        position: flex;
+        bottom: 0;
+        z-index: 10;
         padding: 5px;
     }
 
     .compose input {
         margin: 0 2px 0 0
-    }
-
-    body {
-        bottom: 0;
-        z-index: 10;
     }
 }
