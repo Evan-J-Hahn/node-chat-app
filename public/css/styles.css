@@ -221,7 +221,8 @@ h2 .color {
         margin: 0 2px 0 0
     }
 
-    html {
-        display: -webkit-flex;
+    body {
+        bottom: 0;
+        z-index: 10;
     }
 }
