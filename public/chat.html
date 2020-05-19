@@ -11,8 +11,12 @@
 	<body>
 		<div class="chat">
 			<div id="sidebar" class="chat__sidebar">
-
+				
 			</div>
+
+			<button id="closebtn" class="closebtn" onclick="closeNav()">&#x21c4;</button>
+			<button id="openbtn" class="openbtn" onclick="openNav()">&#x21c4;</button>
+			
 			<div class="chat__main">
 				<div id="messages" class="chat__messages"></div>
 
@@ -55,6 +59,20 @@
 					<li>{{username}}</li>
 				{{/users}}
 			</ul>
+		</script>
+
+		<script>
+			function closeNav() {
+				document.getElementById("sidebar").style.width = "0"
+				document.getElementById("closebtn").style.display = "none"
+				document.getElementById("openbtn").style.display = "flex"
+			}
+
+			function openNav() {
+				document.getElementById("sidebar").style.width = "225px"
+				document.getElementById("openbtn").style.display = "none"
+				document.getElementById("closebtn").style.display = "flex"
+			}
 		</script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>

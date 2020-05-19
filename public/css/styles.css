@@ -100,8 +100,9 @@ button:disabled {
     height: 100vh;
     color: white;
     background: #333744;
-    width: 225px;
-    overflow-y: scroll
+    width: 0;
+    overflow-y: scroll;
+    transition: .5s; 
 }
 
 /* Chat styles */
@@ -117,6 +118,22 @@ button:disabled {
     flex-grow: 1;
     padding: 24px 24px 0 24px;
     overflow-y: scroll;
+}
+
+.closebtn {
+    color: grey;
+    align-items: center;
+    background-color: black;
+    display: none;
+    max-height: 100vh;
+}
+
+.openbtn {
+    color: grey;
+    align-items: center;
+    background-color: black;
+    display: inline-flex;
+    max-height: 100vh;
 }
 
 /* Message Styles */
@@ -195,10 +212,6 @@ h2 .color {
 }
 
 @media (max-width: 45rem) {
-    .chat__sidebar {
-        width: 25vw;
-    }
-
     #send-location {
         display: none;
     }
