@@ -220,4 +220,8 @@ h2 .color {
     .compose input {
         margin: 0 2px 0 0
     }
+
+    .chat {
+        height: 100vh;
+    }
 }
