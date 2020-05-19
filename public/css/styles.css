@@ -222,6 +222,6 @@ h2 .color {
     }
 
     .chat main {
-        height: 95vh;
+        display: -webkit-flex;
     }
 }
