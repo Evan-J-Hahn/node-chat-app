@@ -116,19 +116,23 @@ button:disabled {
 .closebtn {
     border-radius: 0 5px 5px 0;
     color: grey;
+    justify-content: center;
     align-items: center;
     background-color: black;
     display: none;
     max-height: 100vh;
+    width: 10px;
 }
 
 .openbtn {
     border-radius: 0 5px 5px 0;
     color: grey;
+    justify-content: center;
     align-items: center;
     background-color: black;
     display: inline-flex;
     max-height: 100vh;
+    width: 10px;
 }
 
 .message {
@@ -183,13 +187,9 @@ button:disabled {
 
 .room-title {
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     background: #2c2f3a;
     padding: 24px;
-}
-
-h2 .color {
-    color: grey;
 }
 
 .list-title {
