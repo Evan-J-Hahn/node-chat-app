@@ -132,7 +132,7 @@ button:disabled {
 }
 
 .message {
-    margin-bottom: 16px;   
+    margin-bottom: 16px;
 }
 
 .message__name {
@@ -148,6 +148,12 @@ button:disabled {
 
 .message a {
     color: #0070CC;
+    text-decoration: none;
+}
+
+#wordwrap {
+    word-wrap: break-word;
+    width: 50vw;
 }
 
 .compose {
