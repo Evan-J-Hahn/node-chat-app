@@ -34,6 +34,10 @@ input {
     outline: none;
 }
 
+li {
+    padding-bottom: 10px;
+}
+
 button {
     cursor: pointer;
     padding: 12px;
